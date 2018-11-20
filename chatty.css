@@ -1,0 +1,119 @@
+.highlight {color: blue}
+.expand {font-size: 120%}
+
+body {
+    color: black;
+}
+
+a {
+    font-weight: bolder;
+}
+
+#chatbox {
+    position: relative;
+    top: 25%;
+    left: 25%;
+    background-color: aqua;
+    height: 50%;
+    width: 50%;
+}
+
+#chatdisplay {
+    overflow-wrap: break-word;
+}
+
+#visitors {
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    background-color: aqua;
+    height: 90%;
+    width: 20%;
+}
+
+#useronline {
+    overflow-wrap: break-word;
+    cursor: pointer;    
+}
+#messageIn {
+    position: fixed;
+    top: 74.8%;
+    left: 25.3%;
+    width: 46%;
+
+}
+
+#buttonSend {
+    position: fixed;
+    top: 74.8%;
+    left: 71.3%
+}
+
+#profiledisplay {
+    position: fixed;
+    top: 40%;
+    left: 80%;
+    width: 200px;
+    height: 30%;
+    background-color: aqua;
+    visibility: hidden
+
+}
+
+#userdisplay {
+    position: fixed;
+    top: 5%;
+    left: 80%;
+    width: 200px;
+    height: 30%;
+    background-color: aqua;
+    visibility: visible
+
+}
+
+#rmProfile {
+    position: absolute;
+    top: 0%;
+    left: 80%;
+    background-color: white;
+    width: 40px;
+    height: 20px;
+}
+
+#editProfile {
+    position: absolute;
+    top: 0%;
+    left: 80%;
+    background-color: white;
+    width: 40px;
+    height: 20px;
+}
+
+#rmProfile {
+    position: absolute;
+    top: 0%;
+    left: 80%;
+    background-color: white;
+    width: 40px;
+    height: 20px;
+}
+
+#rmEditMenu {
+    position: absolute;
+    top: 0%;
+    left: 94.2%;
+    background-color: white;
+    width: 40px;
+    height: 20px;
+}
+
+#editMenu {
+    position: fixed;
+    top: 5%;
+    left: 25%;
+    background-color: gray;
+    width: 50%;
+    height: 70%;
+    opacity: .9;
+    visibility: hidden;
+}
